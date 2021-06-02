@@ -1,0 +1,51 @@
+@import '~antd/lib/style/themes/default.less';
+.card {
+  padding:  0 ; 
+  zoom: 1;
+}
+
+.top_card{
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+  :global {
+    .ant-card-body {
+      padding: 0 24px;
+      zoom: 1;
+  }
+  .ant-pro-page-header-wrap-main .ant-pro-page-header-wrap-row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+  
+.headerInfo {
+    position: relative;
+    text-align: center;
+    & > span {
+      display: inline-block;
+      margin-bottom: 4px;
+      color: @text-color-secondary;
+      font-size: @font-size-base;
+      line-height: 22px;
+    }
+    & > p {
+      margin: 0;
+      color: @heading-color;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    & > em {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 1px;
+      height: 56px;
+      background-color: @border-color-split;
+    }
+  }
+
+  

@@ -1,0 +1,40 @@
+@import '~antd/lib/style/themes/default.less';
+
+.idImageWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.idImageBox {
+  width: 40%;
+  @media screen and (max-width: @screen-sm) {
+    width: 90%;
+  }
+}
+.idImageBoxFixedWidth {
+  width: 250px;
+}
+
+.idImagePreview {
+  overflow: hidden;
+  padding: 5px;
+
+  border: 1px dashed #d9d9d9;
+  // width: 104px;
+  border-radius: 4px;
+  background-color: #fafafa;
+  text-align: center;
+  margin-right: 8px;
+  margin-bottom: 8px;
+
+  img {
+    height: 150px;
+  }
+}
+
+.idImageSmall {
+  color: #8c8c8c;
+  float: right;
+  font-size: 0.9em;
+  margin-right: 12px;
+}
